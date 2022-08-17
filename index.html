@@ -1,0 +1,47 @@
+<!DOCType html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body onclick="input1(); input2() ">
+    <main>
+        <section id="flex1">
+            <input id="firstnum" class="in" value="">
+            <input id="secnum" class="in" value="">
+
+            </div>
+        </section>
+        <section id="flex2">
+
+            <button onClick="display('0')">0</button>
+            <button onClick="display(1)">1</button>
+            <button onClick="display(2)">2</button>
+            <button class="color" onclick="sum()">+</button>
+            <button onClick="display('3')">3</button>
+            <button onClick="display('4')">4</button>
+            <button onClick="display('5')">5</button>
+            <button class="color" onclick="diff()">_</button>
+            <button onClick="display('6')">6</button>
+            <button onClick="display('7')">7</button>
+            <button onClick="display('8')">8</button>
+            <button class="color" onclick="mul()">x</button>
+            <button onClick="display('9')">9</button>
+            <button class="color" onclick="div()">%</button>
+            <button class="color" onclick="equal()">=</button>
+
+        </section>
+        <section>
+            <h3>Result</h3>
+        </section>
+        <section id="result">
+            <p id="res"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
